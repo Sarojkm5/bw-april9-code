@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: red;
+      }
+      header {
+        background-color: yellow;
+      }
+      img {
+        border: 10px solid red;
+      }
+      header div img {
+        border-color: orange;
+      }
+      header img {
+        border-color: green;
+      }
+      button {
+        background-color: green;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
+      header > button {
+        background-color: palevioletred;
+      }
+    </style>
+  </head>
+  <body>
+    <button>Read More in Body</button>
+    <header>
+      <button>Read More in Header</button>
+      <h1>Hello ELEMENT Selector for Header</h1>
+      <div>
+        <button>Read More in div of Header</button><br />
+        <img src="https://picsum.photos/100" alt="" />
+      </div>
+      <button>Read More in Header</button><br />
+
+      <img src="https://picsum.photos/100" alt="" />
+    </header>
+    <main>
+      <button>Read More in More</button>
+      <h1>Hello ELEMENT Selector</h1>
+      <img src="https://picsum.photos/100" alt="" />
+    </main>
+    <footer>
+      <button>Read More in Footer</button>
+      <h1>Hello ELEMENT Selector</h1>
+      <img src="https://picsum.photos/100" alt="" />
+    </footer>
+  </body>
+</html>

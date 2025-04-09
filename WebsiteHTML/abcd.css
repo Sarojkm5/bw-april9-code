@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+/*Internal CSS*/
+h1 {
+  color: red;
+  font-size: 50px;
+}
+article {
+  border: 2px solid red;
+  padding: 15px;
+  margin-top: 20px;
+  /*margin-left: 20px;
+        margin-right: 100px;*/
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+article button,
+button {
+  background-color: red;
+  color: white;
+  border: 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+header button {
+  background-color: green;
+}

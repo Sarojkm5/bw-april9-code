@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas
+      style="border: 1px solid black"
+      class="hello my canvas"
+      id="myCanvas"
+      width="200"
+      height="100"
+    ></canvas>
+    <canvas
+      style="border: 1px solid black"
+      class="hello my canvas"
+      id="myCanvas"
+      width="200"
+      height="100"
+    ></canvas>
+
+    <script>
+      let c = document.getElementById("myCanvas");
+      let context = c.getContext("2d");
+      context.moveTo(0, 0);
+      context.lineTo(100, 100);
+      context.stroke();
+    </script>
+  </body>
+</html>

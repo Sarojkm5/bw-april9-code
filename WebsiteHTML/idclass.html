@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      button {
+        background-color: red;
+      }
+      .MainButton {
+        background-color: yellow;
+      }
+      #footerButton {
+        background-color: black;
+        color: white;
+      }
+      /* .borderGreen {
+        border: 5px solid green;
+      } */
+      .MainButtom.borderGreen.test {
+        border-color: black;
+      }
+      #hello {
+        background-color: aqua;
+      }
+      .hello {
+        background-color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <button>Header Button</button>
+    </header>
+    <main>
+      <div id="hello" class="hello">Hello Id</div>
+      <div class="hello">Hello Class</div>
+      <hr />
+
+      <section style="height: 100vh; background-color: red"></section>
+      <section style="height: 100vh; background-color: yellow"></section>
+      <section
+        id="purpleSection"
+        style="height: 100vh; background-color: purple"
+      ></section>
+      <section style="height: 100vh; background-color: black"></section>
+      <button class="MainButton borderGreen test">Main Button</button>
+    </main>
+    <footer>
+      <a href="#purpleSection">
+        <button>Footer Button</button>
+      </a>
+    </footer>
+  </body>
+</html>
